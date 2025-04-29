@@ -1,0 +1,226 @@
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
+Array
+(
+    [data] =>  NAN#0.00#0.000#0.00
+)
