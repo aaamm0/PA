@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="./js/js-fluid-meter.js"></script>
+  <title>Fluid Meter</title>
+  <style>
+    .custom-container {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px; /* Perkecil ukuran container */
+      margin: auto; /* Pusatkan container */
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container custom-container">
+    <div class="row">
+      <div class="col text-center">
+        <div id="fluid-meter" class="mx-auto"></div>
+        <input type="number" id="percentage-1" value="50" class="form-control mt-2">
+        <button id="submit-percentage-1" class="btn btn-primary mt-2">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var fm = new FluidMeter();
+    fm.init({
+      targetContainer: document.getElementById("fluid-meter"),
+      fillPercentage: 50,  
+      options: {
+        fontFamily: "Raleway",
+        drawPercentageSign: false,
+        drawBubbles: true,
+        size: 250, /* Perkecil ukuran fluid meter */
+        borderWidth: 15,
+        backgroundColor: "#e2e2e2",
+        foregroundColor: "#fafafa",
+        foregroundFluidLayer: {
+          fillStyle: "purple",
+          angularSpeed: 100,
+          maxAmplitude: 12,
+          frequency: 30,
+          horizontalSpeed: -150
+        },
+        backgroundFluidLayer: {
+          fillStyle: "pink",
+          angularSpeed: 100,
+          maxAmplitude: 9,
+          frequency: 30,
+          horizontalSpeed: 150
+        }
+      }
+    });
+
+    document.getElementById("submit-percentage-1").onclick = function () {
+      var value = Number(document.getElementById('percentage-1').value);
+      if (value >= 0 && value <= 100) {
+        fm.setPercentage(value);
+      } else {
+        alert("Masukkan angka antara 0-100!");
+      }
+    };
+  </script>
+</body>
+
+</html>
