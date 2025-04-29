@@ -1,9 +1,9 @@
 
 <?php
 $host = "localhost";
-$user = "root";
-$pass = "";
-$db = "pa"; // nama database kamu
+$user = "aam";
+$pass = "aam123";
+$db = "aam_autorator"; // nama database kamu
 
 $conn = new mysqli($host, $user, $pass, $db);
 

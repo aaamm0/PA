@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "pa";
+$user = "aam";
+$pass = "aam123";
+$db   = "aam_autorator";
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 

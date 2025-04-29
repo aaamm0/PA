@@ -1,9 +1,9 @@
 <?php
 // Koneksi ke database
 $host = "localhost";
-$username = "root";
-$password = ""; // sesuaikan jika ada password
-$database = "pa"; // ganti sesuai nama database kamu
+$username = "aam";
+$password = "aam123"; // sesuaikan jika ada password
+$database = "aam_autorator"; // ganti sesuai nama database kamu
 
 $mysqli = new mysqli($host, $username, $password, $database);
 
