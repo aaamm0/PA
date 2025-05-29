@@ -1,8 +1,15 @@
 <?php
+// $host = "localhost";  // Sesuaikan dengan host database
+// $user = "root";       // Sesuaikan dengan username database
+// $pass = "";           // Sesuaikan dengan password database
+// $db   = "pa"; // Sesuaikan dengan nama database
+
 $host = "localhost";  // Sesuaikan dengan host database
 $user = "aam";       // Sesuaikan dengan username database
 $pass = "aam123";           // Sesuaikan dengan password database
 $db   = "aam_autorator"; // Sesuaikan dengan nama database
+
+
 
 $conn = new mysqli($host, $user, $pass, $db);
 
