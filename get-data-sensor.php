@@ -1,6 +1,7 @@
 <?php
 // Koneksi ke database
-include 'koneksi.php'; // Ganti dengan file koneksi database Anda
+include "koneksi.php"; // Ganti dengan file koneksi database Anda
+
 // Fungsi untuk ambil data dari satu tabel
 function getTableData($mysqli, $tableName) {
     $data = [];
