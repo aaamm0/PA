@@ -1,16 +1,7 @@
 <?php
 header('Content-Type: application/json');
-$host = "localhost";
-$user = "aam";
-$pass = "aam123";
-$db = "aam_autorator";
+include 'koneksi.php'; // Include koneksi database
 
-$conn = new mysqli($host, $user, $pass, $db);
-
-if ($conn->connect_error) {
-    echo json_encode(["error" => "Connection failed"]);
-    exit();
-}
 
 function getLatestRow($conn, $table) {
     $sql = "SELECT * FROM $table ORDER BY id DESC LIMIT 1";
