@@ -1,7 +1,9 @@
-
 <?php
-include 'koneksi.php'; // Include your database connection file
 header('Content-Type: application/json');
+$host = "localhost";
+$user = "aam";
+$pass = "aam123";
+$db = "aam_autorator";
 
 $conn = new mysqli($host, $user, $pass, $db);
 
