@@ -1,15 +1,7 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db = "pa"; // nama database kamu
 
-$conn = new mysqli($host, $user, $pass, $db);
+include 'koneksi.php'; // Include koneksi database
 
-// Cek koneksi
-if ($conn->connect_error) {
-    die("Koneksi gagal: " . $conn->connect_error);
-}
 
 // Query ambil data
 $sql = "SELECT * FROM do_sensor ORDER BY timestamp DESC LIMIT 1"; // ambil data terbaru

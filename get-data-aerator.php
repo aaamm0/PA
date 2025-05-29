@@ -1,15 +1,7 @@
 
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db = "pa"; // nama database kamu
+include 'koneksi.php'; // Include your database connection file
 
-$conn = new mysqli($host, $user, $pass, $db);
-
-if ($conn->connect_error) {
-    die(json_encode(['error' => 'Koneksi gagal']));
-}
 
 // Query Aerator1 dari node1
 $sql1 = "SELECT Relay FROM node1 ORDER BY id DESC LIMIT 1";

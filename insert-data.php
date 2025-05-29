@@ -1,18 +1,9 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "pa";
-
-$conn = mysqli_connect($host, $user, $pass, $db);
-
+include 'koneksi.php'; // Include koneksi database
 echo "<pre>";
 print_r($_POST);
 echo "</pre>";
 
-if (!$conn) {
-    die("Koneksi gagal: " . mysqli_connect_error());
-}
 
 $node_id  = $_REQUEST['node_id'];
 // $node_id  = 1;

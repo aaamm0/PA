@@ -1,11 +1,5 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db = "pa"; // nama database kamu
-
-$conn = new mysqli($host, $user, $pass, $db);
-
+include 'koneksi.php'; // Include koneksi database
 $data = array();
 
 $tables = ['node1', 'node2', 'node3', 'node4'];

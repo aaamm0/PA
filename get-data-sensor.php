@@ -1,17 +1,6 @@
 <?php
 // Koneksi ke database
-$host = "localhost";
-$username = "root";
-$password = ""; // sesuaikan jika ada password
-$database = "pa"; // ganti sesuai nama database kamu
-
-$mysqli = new mysqli($host, $username, $password, $database);
-
-// Cek koneksi
-if ($mysqli->connect_error) {
-    die("Koneksi gagal: " . $mysqli->connect_error);
-}
-
+include 'koneksi.php'; // Ganti dengan file koneksi database Anda
 // Fungsi untuk ambil data dari satu tabel
 function getTableData($mysqli, $tableName) {
     $data = [];

@@ -1,12 +1,6 @@
 <?php
-$servername = "localhost"; // Host database (biasanya localhost)
-$username = "root"; // Username MySQL
-$password = ""; // Password MySQL (kosong jika default XAMPP)
-$dbname = "pa"; // Nama database MySQL
-
-// Buat koneksi ke MySQL
-$conn = new mysqli($servername, $username, $password, $dbname);
-
+include 'koneksi.php'; // Include koneksi database
+header('Content-Type: application/json');
 // Cek koneksi
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
