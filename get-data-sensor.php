@@ -5,7 +5,7 @@ $user = "aam";       // Sesuaikan dengan username database
 $pass = "aam123";           // Sesuaikan dengan password database
 $db   = "aam_autorator"; // Sesuaikan dengan nama database
 
-$mysqli = new mysqli($host, $username, $password, $database);
+$mysqli = new mysqli($host, $username, $pass, $database);
 
 // Cek koneksi
 if ($mysqli->connect_error) {
